@@ -1,0 +1,9 @@
+
+.ProductSections-wrapper{
+    width: calc(100% - 220px);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: 96vh;
+}

@@ -1,0 +1,248 @@
+
+.login-outer-wrapper{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.login-left-wrapper{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-right-wrapper{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, #00a693, #00000047);}
+
+.login-inner-wrapper{
+    width: 55%;
+    height: 80vh;
+    /* border: 1px solid rgba(128, 128, 128, 0.324); */
+    display: flex;
+    flex-direction: column;
+    /* font-style: italic; */
+    align-items: center;
+    box-shadow: 0px 0px 4px #0000004d;
+
+}
+
+@font-face {
+    font-family: Conqueror;
+    src: url(/src/Fonts/Conqueror.otf);
+}
+
+.login-title{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid gray; */
+    display: fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.login-title h2{
+    font-family:sans-serif;
+    font-weight: 600;
+    color: #00a693;
+
+}
+
+.login-Social-media{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.some-text{
+    width: 100%;
+    height: 9%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.some-text h2{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: gray;
+
+}
+
+
+
+
+.form{
+    width: 100%;
+    height: calc(100% - 34%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.Email{
+    width: 100%;
+    height: 17%;
+    /* border: 1px solid #8080807d; */
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background: #0066ff11;
+}
+
+.Email-input{
+    width: 100%;
+    height: 122%;
+    outline: none;
+    outline: none;
+    border: none;
+    padding: 8px;
+    font-size: 15px;
+    background: none;
+
+}
+
+.Password{
+    width: 100%;
+    height: 17%;
+    /* border: 1px solid #8080807d; */
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+    background: #0066ff11;
+}
+
+.Password-input{
+    width: 100%;
+    height: 122%;
+    outline: none;
+    outline: none;
+    border: none;
+    padding: 8px;
+    font-size: 15px;
+    background: none;
+
+}
+
+.forget{
+    width: 100%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.forget h2{
+    font-size: 15px;
+    font-weight: 500;
+    color: #565656;
+    font-family: sans-serif;
+    cursor:default;
+
+}
+
+.forget h2:hover{
+    color: rgba(0, 0, 255, 0.547);
+}
+
+@font-face {
+    font-family: Conqueror;
+    src: url(/src/Fonts/Romanica.ttf);
+}
+
+.SignIn{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SignIn button{
+    border: none;
+    background: #00a693;
+    color: white;
+    font-size: 17px;
+    width: 110%;
+    height: 86%;
+    border-radius: 40px;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
+
+.inner-wrapper-signup{
+    width: 60%;
+    height: 54%;
+    /* border: 1px solid gray; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: 20%;
+}
+
+
+
+
+
+.SignUp{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SignUp a{
+    border: none;
+    color: white;
+    font-size: 15px;
+    width: 60%;
+    height: 86%;
+    border-radius: 40px;
+    font-family: sans-serif;
+    cursor: pointer;
+    border: 1px solid white;
+    background: none;
+    transition: all 0.5s ease;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.SignUp a:hover{
+    background-color: white;
+    color: black;
+}
+

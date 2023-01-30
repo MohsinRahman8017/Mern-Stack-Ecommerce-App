@@ -1,0 +1,143 @@
+
+.producttable-wrapper{
+    background: rgb(255, 255, 255);
+    width: 95%;
+    height: 90%;
+    display: flex;
+    margin: 0% 2.5%;
+    box-shadow: 0px 1px 3px #80808069;
+    flex-direction: column;
+
+}
+
+.product-table-Header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #80808080;
+}
+
+.table-right{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.table-right h2{
+    font-family: system-ui;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000b0;
+
+}
+
+.table-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.btn-blue{
+    padding: 10px 11px;
+    background: ble;
+    background: #011efffa;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    text-decoration: none;
+}
+
+.btn-blue span{
+    font-size: 14px;
+}
+
+.btn-blue  h2{
+    font-size: 12px;
+    font-family: system-ui;
+    font-weight: 500;
+}
+
+.table-Product{
+   width: 100%;
+   border-collapse: collapse;
+   text-align: center;
+
+}
+
+
+.table-Product thead{
+    width: 100%;
+    height: 44px;
+    background: #d6d6d61f;
+    /* border-collapse: collapse; */
+    border: none;
+    border-left: none;
+    border-right: none;
+ 
+
+}
+
+.table-Product thead th{
+    font-family: system-ui;
+    font-weight: 500;
+    color: #191919;
+    font-size: 15px;
+    padding: 13px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.303);
+
+}
+
+
+.table-Product tr{
+    width: 100%;
+    height: 44px;
+    background: white;
+    border-collapse: collapse;
+    border: none;
+    border-right: none;
+    font-family: system-ui;
+    font-weight: 400;
+    border: 1px solid #69686836;
+
+}
+
+.table-Product tr td{
+    font-size: 18px;
+    padding: 8px 0px;
+    transition: all 0.5s ease;
+    font-family: system-ui;
+    width: 0px;
+}
+
+
+
+
+.table-Product tr:nth-child(odd){
+    background: #d6d6d61f; 
+       border: 1px solid #69686836;
+       border-left: none;
+       border-right: none;
+       
+}
+
+.table-Product tr td:nth-last-child(4){
+    color: rgba(0, 0, 255, 0.589);
+}
+
+
+.material-symbols-outlined:hover{
+    color: green;
+}
+

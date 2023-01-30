@@ -1,0 +1,18 @@
+.Product-list-outer-wrapper{
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 71px;
+    /* background: #aba8a82b; */
+    background-color: white;
+    /* background: gray; */
+}
+
+@media (max-width:500px) {
+    .Product-list-outer-wrapper{
+        flex-direction: column;
+    }
+       
+    }

@@ -1,0 +1,106 @@
+.Cart-Section-Wrapper{
+        width: 100%;
+        height: calc(100% - 70px);
+        position: absolute;
+        top: 70px;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+}
+.table{
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    text-align: center;
+
+}
+
+.table thead th{
+    font-size: 19px;
+    font-family: system-ui;
+    padding: 13px 0px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.303);
+
+}
+
+
+.table td{
+    font-size: 18px;
+    padding: 8px 0px;
+    transition: all 0.5s ease;
+    font-family: system-ui;
+}
+
+.table td a {
+    font-size: 18px;
+    padding: 8px 0px;
+    transition: all 0.5s ease;
+    font-family: system-ui;
+    text-decoration: none;
+    color: rgb(104, 67, 248);
+}
+
+.table td:nth-child(3){
+    font-weight: 600;
+}
+
+.table td:nth-last-child(1){
+    color: red;
+    font-weight: 600;
+
+}
+.table tbody{
+    margin-top: 20px;
+}
+.table tr{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.303);
+}
+
+.table tr td img{
+    height: 82px;
+}
+
+.counter-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 21px;
+
+}
+
+.counter{
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 46%;
+    border: 1px solid gray;
+}
+    
+.counter button{
+    height: 33px;
+    width: 44px;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: white
+    ;
+
+}
+
+
+.counter h2{
+    height: 33px;
+    width: 46px;
+    border: none;
+    text-align: center;
+    background: none;
+    font-family: system-ui;
+    font-weight: 400;
+    font-size: 23px;
+}
+

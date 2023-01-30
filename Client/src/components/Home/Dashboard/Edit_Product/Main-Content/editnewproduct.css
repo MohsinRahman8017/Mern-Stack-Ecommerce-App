@@ -1,0 +1,231 @@
+
+
+.form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+}
+
+.form-data{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 98vh;
+}
+
+
+.Add-Left-Section{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+
+.Add-Left-Section label{
+    font-size: 19px;
+    font-family: sans-serif;
+
+}
+
+.Add-Left-Section input{
+    padding: 10px;
+    border: none;
+    border: 1px solid #58575796;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.Add-Left-Section input:focus{
+    border-bottom: 1px solid #0622ff;
+}
+
+.Add-Left-Section textarea:focus{
+    border-bottom: 1px solid #0622ff;
+}
+
+.textarea{
+    min-height: 30%;
+    padding: 9px;
+    font-size: 14px;
+    font-family: system-ui;
+    outline: none;
+    border: 1px solid #9d9c9c;
+}
+
+
+.Add-Right-Section{
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.largeImg-upload{
+    width: 374px;
+    height: 231px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 2px #80808088;
+    border: 1px solid #808080ad;
+    position: relative;
+     background-size: cover;
+}
+
+
+
+.upload-wrapper-hover{
+    background:  #5656547a;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-wrapper-none{
+    display: none;
+}
+
+
+.largeImg-upload span{
+    font-size: 42px;
+    background: #808080a1;
+    border-radius: 51px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.file{
+    position: absolute;
+    left: 129px;
+    font-size: 38px;
+    width: 111px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.SmallWrapper{
+    width: 374px;
+    height: 131px;
+    /* background: rgba(128, 128, 128, 0.214); */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.SmallImg-upload{
+    width: 100px;
+    height: 100px;
+    /* background: rgb(165, 165, 165); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 2px #80808088;
+    position: relative;
+    border: 1px solid #808080ad;
+    background-size: cover;
+
+}
+
+
+
+.SmallImg-upload span{
+    font-size: 22px;
+    background: #808080a1;
+    border-radius: 51px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.filesmall{
+    position: absolute;
+    left: 31px;
+    font-size: 19px;
+    width: 40px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/**********IMage Uploaded*********/
+
+.Image{
+    width: 100%;
+    position: absolute;
+}
+
+
+.Submit{
+    padding: 21px 118px;
+    border: none;
+    font-family: system-ui;
+    font-weight: 500;
+    box-shadow: 1px 1px 5px #7c7b7b9c;
+    background: #0622ffde;
+    color: white;
+    /* border-radius: 10px; */
+    font-size: 14px;
+    
+}
+
+.Submit:hover{
+    cursor: pointer;
+    background-color: #0622ff;
+}
+
+
+.ProductPrice{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 9px;
+   
+
+}
+
+.ProductPrice > select{
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #58575796;
+}
+
+.ProductPrice > select > option{
+    background-color: none;
+}
+
+
+

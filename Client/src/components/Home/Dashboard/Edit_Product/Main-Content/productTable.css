@@ -1,0 +1,84 @@
+
+.producttable-wrapper{
+    background: rgb(255, 255, 255);
+    width: 95%;
+    min-height: 90vh;
+    display: flex;
+    margin: 0% 2.5%;
+    box-shadow: 0px 1px 3px #80808069;
+    flex-direction: column;
+    margin-top: 2%;
+
+}
+
+.product-table-Header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #80808080;
+}
+
+.table-right{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.table-right h2{
+    font-family: system-ui;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000b0;
+
+}
+
+.table-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.btn-blue{
+    padding: 10px 11px;
+    background: ble;
+    background: #011efffa;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.btn-blue span{
+    font-size: 14px;
+}
+
+.btn-blue  h2{
+    font-size: 12px;
+    font-family: system-ui;
+    font-weight: 500;
+}
+
+/*  */
+
+
+/***Add New Product Wrappre**/
+
+
+.add-product-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
